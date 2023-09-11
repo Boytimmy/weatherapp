@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: url(img/cool-computer-backgrounds-8.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+
+}
+.container{
+  border:1px solid rgb(214, 160, 160);
+  height: 500px;
+  width: 400px;
+  box-shadow: 5px 5px 25px  rgb(82, 79, 79);
+  border-radius: 20px;
+  backdrop-filter: blur(25px);
+  margin-top: 50px;
+}
+#div1{
+  display:flex ;
+  gap: 30px;
+  text-align: center;
+  margin-left:350px
+}
